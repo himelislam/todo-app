@@ -1,38 +1,38 @@
 [
     {
         "task": "Running",
-        "description" : "running for half an hour"
+        "description" : "Running for half an hour"
     },
     {
         "task": "Reading",
-        "description": "reading for 2 hour"
+        "description": "Reading for 2 hour"
     },
     {
-        "task": "Reading",
-        "description": "reading for 2 hour"
+        "task": "Swimming",
+        "description": "Swimming for 1 hour"
     },
     {
-        "task": "Reading",
-        "description": "reading for 2 hour"
+        "task": "Code Practice",
+        "description": "Code Practice for 2 hour"
     },
     {
-        "task": "Reading",
-        "description": "reading for 2 hour"
+        "task": "Sports",
+        "description": "Sports for 2 hour"
     },
     {
-        "task": "Reading",
-        "description": "reading for 2 hour"
+        "task": "Movies",
+        "description": "Movies for 2 hour"
     },
     {
-        "task": "Reading",
-        "description": "reading for 2 hour"
+        "task": "Office Meeting",
+        "description": "Office Meeting at 1.00 pm"
     },
     {
-        "task": "Reading",
-        "description": "reading for 2 hour"
+        "task": "Family",
+        "description": "Family Time for 4 hour"
     },
     {
-        "task": "Reading",
-        "description": "reading for 2 hour"
+        "task": "Friends",
+        "description": "reading for 1 hour"
     }
 ]
