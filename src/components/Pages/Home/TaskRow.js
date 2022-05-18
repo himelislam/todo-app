@@ -8,7 +8,7 @@ const TaskRow = ({task, index, isReload, setIsReload}) => {
     const email = user.email
 
     const handleAddTask = (id) =>{
-        fetch(`http://localhost:5000/mytask/${id}`, {
+        fetch(`https://pure-chamber-30882.herokuapp.com/mytask/${id}`, {
             method: 'PUT',
             headers: {
                 'content-type' : 'application/json'
@@ -27,7 +27,7 @@ const TaskRow = ({task, index, isReload, setIsReload}) => {
 
     const handleDeleteTask = id => {
 
-        fetch(`http://localhost:5000/mytask/${id}`,{
+        fetch(`https://pure-chamber-30882.herokuapp.com/mytask/${id}`,{
             method : 'DELETE',
         })
         .then(res => res.json())

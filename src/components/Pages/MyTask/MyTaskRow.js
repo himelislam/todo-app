@@ -3,7 +3,7 @@ import { toast } from 'react-toastify';
 
 const MyTaskRow = ({task, index, setIsReload, isReload}) => {
     const handleDeleteTask = id =>{
-        fetch(`http://localhost:5000/mytask/${id}`,{
+        fetch(`https://pure-chamber-30882.herokuapp.com/mytask/${id}`,{
             method : 'DELETE',
         })
         .then(res => res.json())
@@ -17,6 +17,14 @@ const MyTaskRow = ({task, index, setIsReload, isReload}) => {
     }
 
     const [completed, setCompleted] = useState(false);
+
+    const notification = () =>{
+        toast('Your Task is Completed')
+    }
+    
+    if(completed){
+        notification();
+    }
     return (
         <tr>
             <th>{index+1}</th>

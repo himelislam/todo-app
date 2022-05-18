@@ -5,7 +5,7 @@ const AllTasks = () => {
     const [tasks, setTasks] = useState([]);
     const [isReload, setIsReload] = useState(false);
     useEffect(()=>{
-        fetch('http://localhost:5000/tasks')
+        fetch('https://pure-chamber-30882.herokuapp.com/tasks')
         .then(res=> res.json())
         .then(data => setTasks(data));
     },[isReload])
@@ -13,8 +13,8 @@ const AllTasks = () => {
         <div className=''>
             <h2 className='text-center text-3xl text-primary my-8'>All Task Lists</h2>
             <div className='mx-10'>
-                <div class="overflow-x-auto">
-                    <table class="table w-full">
+                <div className="overflow-x-auto">
+                    <table className="table w-full">
                         {/* <!-- head --> */}
                         <thead>
                             <tr>
